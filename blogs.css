@@ -1,0 +1,904 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    padding: 20px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.listed{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    display: flex;
+    gap: 20px;
+}
+.con{
+    color: black;
+    text-decoration: none;
+}
+.home{
+    color: black;
+    text-decoration: none;
+}
+.div-left{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    display: flex;
+    gap: 30px;
+}
+.div-call{
+    display: flex;
+    gap: 10px;
+}
+.img-call{
+    width: 20px;
+    height: 20px;
+}
+.img-mail{
+    width: 15px;
+    height: 15px;
+}
+.div-call h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.div-mail h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.div-mail{
+    display: flex;
+    gap: 10px;
+}
+.div-empty{
+    margin: 0 80px;
+    height: 0.2px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-medi{
+    width: 120px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.div-btn button{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(27, 142, 230);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.div-mediplus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 170px;
+}
+.blogger{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.image{
+    padding: 20px 30px;
+    width: 100%;
+    height: 300px;
+
+}
+.div-contact h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.ul{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    display: flex;
+    gap: 10px;
+}
+.div-button button{
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
+    border: none;
+    background-color: rgba(52, 5, 222, 0.854);
+    color: white;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 100px;
+    left: 1009px;
+}
+.div-under ul{
+    font-size: 13px;
+}
+.homee{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.div-position{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    position: relative;
+}
+.div-position h1{
+    color: white;
+    font-size: 25px;
+}
+.div-images{
+    /* background: linear-gradient(rgba(0, 200, 255, 0.37), rgba(0, 0, 255, 0.37)), url(./img/blockqoute-bg.jpg); */
+    background: linear-gradient(rgba(49, 13, 210, 0.635), rgba(13, 77, 238, 0.603)), url(./img/blockqoute-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+}
+.div-button{
+    position: relative;
+}
+.more-than h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 400px;
+}
+.author{
+    width: 30px;
+    border-radius: 50px;
+}
+.rahm p{
+    font-size: 11px;
+}
+.time p{
+    font-size: 11px;
+}
+.clock img{
+    width: 12px;
+}
+.naimur{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.msg img{
+    width: 12px;
+}
+.com p{
+    font-size: 11px;
+}
+.eyes img{
+    width: 15px;
+}
+.views p{
+    font-size: 11px;
+}
+.commentss{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.div-div{
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+.bar{
+    width: 200px;
+}
+.div-two{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.lorem1000 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 400px;
+    padding: 10px;
+}
+.lorem1000{
+    background: linear-gradient(rgba(14, 86, 174, 0.863), rgb(95, 128, 177)) ,url(./img/fun-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    /* padding: 20px; */
+    padding-bottom: 30px;
+    color: white;
+    width: 400px;
+}
+.lorem100 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 400px;
+}
+.flex-direction{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.sidebar{
+   width: 65%;
+}
+.side img{
+    width: 400px;
+}
+.fbk{
+    width: 15px;
+}
+.faceb{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(101, 101, 225);
+}
+.facebb{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(84, 152, 230);
+}
+.faceb p{
+    font-size: 12px;
+    color: white;
+}
+.gg img{
+    width: 20px;
+}
+.gg{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(244, 107, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.v img{
+    width: 20px;
+}
+.v{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(57, 80, 179);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pin img{
+    width: 20px;
+   
+}
+.pins{
+    width: 40px;
+    height: 30px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    display: flex;
+}
+.double img{
+    width: 20px;
+}
+.double{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.less-than{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.div-social{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    /* padding: 20px; */
+}
+.comment img{
+    width: 60px;
+}
+
+.comments-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 24px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.comment {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* margin-bottom: 15px; */
+}
+.comment2{
+    margin-left: 90px;
+}
+
+
+.comment img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.comment-content {
+    flex: 1;
+}
+
+.comment-content h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #007bff;
+}
+
+.comment-content .date {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.comment-content .comment-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.comment-content button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.comment-content button:hover {
+    background-color: #0056b3;
+}
+
+.h-fill h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.perss{
+    width: 50px;
+    height: 50px;
+}
+.our p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.our img{
+    width: 12px;
+    height: 12px;
+}
+.our{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    border: 1px solid rgb(187, 185, 185);
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+}
+.one-two{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.type-your img{
+    width: 30px;
+}
+.type-your p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    /* padding-bottom: 50px; */
+}
+.type-your{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid  rgb(187, 185, 185);
+    width: 490px;
+    height: 120px;
+    padding: 20px;
+    padding-bottom: 90px;
+    gap: 10px;
+}
+.sub img{
+    width: 25px;
+}
+.sub p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 30px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.fill-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+.div-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    gap: 15px;
+    padding-bottom: 50px;
+}
+.div-about h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    /* position: relative; */
+}
+.div-lorem p{
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.footaa{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.circles{
+    background-color: aqua;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 142, 230);
+    border: 1px solid white;
+}
+.fb{
+    width: 15px;
+}
+.google{
+    width: 15px;
+}
+.twitter{
+    width: 12px;
+}
+.vimo{
+    width: 12px;
+}
+.pin{
+    width: 15px;
+}
+.pinn{
+    width: 15px;
+}
+.div-flex-colu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.link-head h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.div-home p{
+    font-size: 12px;
+}
+.img-more{
+    width: 10px;
+}
+.flex-links{
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 5px;
+    color: white;
+}
+.div-open h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.div-lor{
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.div-friday p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.div-mon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.div-hours{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.news h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.lorems{
+    width: 200px;
+}
+.lorems p{
+    font-size: 12px;
+}
+.inputs input{
+    width: 140px;
+    height: 30px;
+    background-color:  rgb(27, 142, 230);
+    border: none;
+    border: 1px solid white;
+}
+.sender{
+    width: 30px;
+    background-color: white;
+}
+.div-sender{
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+.div-submit{
+    display: flex;
+    align-items: center;
+    border: 1px solid  rgb(27, 142, 230);
+    border-radius: 10px;
+}
+.div-news{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.footers h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footers{
+    background-color:  rgb(27, 142, 230);
+    padding: 40px;
+    padding-bottom: 70px;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+.copy p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 111, 209);
+    color: white;
+    /* padding-bottom: 30px; */
+    padding: 20px;
+    /* padding-top: 50px; */
+}
+.div-search p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+.div-search img{
+    width: 30px;
+    height: 30px;
+}
+.src{
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid rgb(187, 185, 185);
+    display: flex;
+    align-items: center;
+}
+.sr-img{
+    width: 40px;
+    height: 30px;
+    background-color: black;
+}
+.div-search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 0.5px solid rgb(187, 185, 185);
+    width: 250px;
+    height: 80px;
+    border-radius: 5px;
+    padding: 30px;
+}
+.gories h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.gories img{
+    width: 30px;
+    height: 20px;
+}
+.gories{
+    display: flex;
+    align-items: center;
+}
+.ull li{
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.ull{
+    display: flex;
+    flex-direction: column;
+}
+.div-cate{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5px solid  rgb(187, 185, 185);
+    width: 250px;
+    height: 120px;
+    gap: 10px;
+    padding: 10px 30px;
+}
+.recent-divs h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.recent-div img{
+    width: 30px;
+    height: 20px;
+}
+.recent-div{
+    display: flex;
+}
+.posting{
+    width: 60px;
+}
+.post-date h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    width: 150px;
+}
+.post-date{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.date p{
+    font-size: 12px;
+}
+.date-image img{
+    width: 20px;
+}
+.dates{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.date-image{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.date{
+    display: flex;
+    gap: 15px;
+}
+.we-post{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.recent-divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border: 0.5px solid  rgb(187, 185, 185);
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+}
+.h-tagss img{
+    width: 30px;
+    height: 20px;
+}
+.h-tagss h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.h-tagss{
+    display: flex;
+}
+.head1{
+    font-size: 14px;
+    background-color: rgba(231, 232, 234, 0.788);
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head2{
+    font-size: 14px;
+    background-color:  rgba(231, 232, 234, 0.788);
+    width: 85px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head3{
+    font-size: 14px;
+    background-color:  rgba(231, 232, 234, 0.788);
+    width: 50px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-tagss{
+    display: flex;
+    gap: 10px;
+}
+.head4{
+    font-size: 14px;
+    background-color:  rgba(231, 232, 234, 0.788);
+    width: 110px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head5{
+    font-size: 14px;
+    background-color:  rgba(231, 232, 234, 0.788);
+    width: 90px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-tagss{
+    display: flex;
+    gap: 10px;
+}
+.head6{
+    font-size: 14px;
+    background-color:  rgba(231, 232, 234, 0.788);
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head7{
+    font-size: 14px;
+    background-color:  rgba(231, 232, 234, 0.788);
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-tagss{
+    display: flex;
+    gap: 10px;
+}
+.the-tags{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.tagss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    width: 250px;
+    height: 180px;
+    border: 0.5px solid rgb(187, 185, 185);
+    border-radius: 5px;
+}
+.second-direction{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.flex-direction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border: 1px solid rgb(187, 185, 185);
+    width: 470px;
+    padding: 10px;
+
+}
+.sidebar{
+    width: 200px;
+}
+.div-alls{
+    display: flex;
+    justify-content: center;
+    padding: 20px 240px;
+    gap: 20px;
+}

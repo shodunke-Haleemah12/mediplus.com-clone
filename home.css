@@ -1,0 +1,1068 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    padding: 20px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.blogger{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.listed{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    display: flex;
+    gap: 20px;
+}
+.con{
+    color: black;
+    text-decoration: none;
+}
+.home{
+    color: black;
+    text-decoration: none;
+}
+.div-left{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    display: flex;
+    gap: 30px;
+}
+.div-call{
+    display: flex;
+    gap: 10px;
+}
+.img-call{
+    width: 15px;
+}
+.img-mail{
+    width: 15px;
+}
+.div-mail{
+    display: flex;
+    gap: 10px;
+}
+.div-empty{
+    margin: 0 80px;
+    height: 0.2px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-medi{
+    width: 120px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.div-btn button{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(27, 142, 230);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.div-mediplus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 170px;
+}
+.doctor{
+    width: 100%;
+    /* height: 500px; */
+    padding: 30px 30px;
+}
+.circle{
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 142, 230);
+}
+.more{
+    width: 15px;
+}
+.div-heading h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    width: 450px;
+}
+.div-lorem{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.btn button{
+    width: 150px;
+    height: 25px;
+    background-color: rgb(27, 142, 230);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.btns button{
+    width: 80px;
+    height: 25px;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.div-button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.circles{
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 142, 230);
+}
+.div-position{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.div-background{
+    position: relative;
+}
+.div-next{
+    position: absolute;
+    bottom: 120px;
+    left: 50px;
+}
+.div-position{
+    position: absolute;
+    bottom: 120px;
+    left: 120px;
+}
+.div-prev{
+    position: absolute;
+    bottom: 120px;
+    right: 45px;
+    border: none;
+}
+.div-amet p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.div-cases h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.lorems{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    width: 200px;
+}
+.learn h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.img-learn{
+    width: 15px;
+}
+.div-learn{
+    display: flex;
+}
+.div-emergency{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:  rgb(27, 142, 230);
+    width: 230px;
+    padding: 20px;
+    height: 180px;
+    color: white;
+    border-radius: 4px;
+}
+.div-emergencies{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:  rgb(27, 142, 230);
+    width: 230px;
+    padding: 20px;
+    height: 180px;
+    color: white;
+    border-radius: 4px;
+}
+.div-p p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.div-h h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.div-ipsum{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    width: 200px;
+}
+.div-hours p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.head-more h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.div-opening{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color:  rgb(27, 142, 230);
+    width: 230px;
+    height: 180px;
+    padding: 20px;
+    color: white;
+    border-radius: 4px;
+}
+.div-moree{
+    display: flex;
+}
+.doctor{
+    position: relative;
+}
+.div-blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 650px;
+    left: 250px;
+}
+.div-we h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    width: 400px;
+}
+.div-we{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+}
+.div-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.div-dolor p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 400px;
+}
+.div-dolor{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.foots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+.circular{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    /* background-color: rgb(27, 142, 230); */
+}
+.line{
+    width: 130px;
+    height: 1px;
+    background-color:  rgb(27, 142, 230);
+}
+.ambulance{
+    width: 30px;
+}
+.head-emerg h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.p-loremu p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 270px;
+}
+.div-emerg{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.div-help{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.house{
+    background-color:  rgb(27, 142, 230);;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+.houses{
+    width: 20px;
+}
+.div-num{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.div-display{
+    display: flex;
+    gap: 10px;
+}
+.div-emoji{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(rgba(89, 194, 236, 0.76), rgba(0, 0, 0, 0.459)), url(./img/blockqoute-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    color: white;
+}
+.hand{
+    width: 100%;
+    padding: 20px 20px;
+    
+}
+.div-offer h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 400px;
+}
+.div-offer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+.div-sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 10px; */
+}
+.circ{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 142, 230);
+    border: 1px solid white;
+}
+.img-blues{
+    width: 7px;
+}
+.div-pin{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.div-flexi{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    gap: 15px;
+    padding-top: 50px;
+}
+.div-who{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ex{
+    /* margin: 0 600px; */
+    height: 1px;
+    width: 50px;
+    background-color: black;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.head-who h1{
+    font-size: 15px;
+}
+.lorem-who{
+    width: 320px;
+    font-size: 13px;
+}
+.lor-who{
+    font-size: 13px;
+    width: 300px;
+}
+.ipsum{
+    font-size: 12px;
+}
+.div-mac{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div-macs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div-ma{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.video{
+    width: 350px;
+    height: 200px;
+    position: relative;
+
+}
+.img-icons{
+    width: 13px;
+}
+.the-flexi{
+    position: relative;
+}
+.div-div{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 142, 230);
+
+}
+.div-icons{
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+.emergency-image{
+    width: 100%;
+    height: 300px;
+}
+.emergency-position{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(rgba(21, 113, 150, 0.76), rgba(11, 107, 176, 0.849)), url(./img/call-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px;
+    margin: 30px;
+}
+.do-you{
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+}
+.emergency-lorem p{
+    width: 400px;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+}
+.buttons-1 button{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    color: blue;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+.buttons-2 button{
+    width: 120px;
+    height: 30px;
+    background-color: rgba(54, 151, 196, 0.801);
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+.emergency-button{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+.div-position{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-maintain h1{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 500px;
+    display: flex;text-align: center;
+}
+.div-maintain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.lorem10 p{
+    font-size: 15px;
+    width: 450px;
+}
+.lorem10{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+.pf{
+    width: 250px;
+}
+.div-nurses{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+.div-different h1{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+}
+.div-different{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.lorem100 p{
+    width: 450px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.lorem100{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.phone{
+    width: 40px;
+}
+.teeth{
+    width: 45px;
+}
+.heart{
+    width: 40px;
+}
+.head-treatment h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.p-treatment p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 200px;
+}
+.div-treatment{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.the{
+    background-color: rgba(253, 245, 245, 0.452);
+    margin: 30px;
+}
+.divs{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.div-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+}
+.scissorss{
+    width: 50px;
+}
+.div-surg h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px; 
+}
+.dollars h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color:  rgb(27, 142, 230);;
+}
+.per p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.div-dollars{
+    display: flex;
+    align-items: center;
+}
+.cors{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mark{
+    width: 15px;
+}
+.f-display{
+    display: flex;
+    gap: 30px;
+}
+.head-mark p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.book-now button{
+    width: 200px;
+    height: 25px;
+    background-color:  rgb(27, 142, 230);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.prices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid rgb(151, 142, 142);
+    width: 220px;
+    height: 280px;
+
+}
+.div-pricess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+.div-differents h1{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 380px;
+}
+.div-differents{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.image-blog{
+    width: 230px;
+}
+.button-date button{
+    background-color:  rgb(27, 142, 230);
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+.h-we h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width: 250px;
+}
+.lorem-p p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    width: 220px;
+}
+.div-direct{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.div-arrange{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div-arranges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.pharm{
+    display: flex;
+    gap: 40px;
+   
+}
+.div-pharmacy{
+    background: linear-gradient(rgba(21, 113, 150, 0.76), rgba(11, 107, 176, 0.849)), url(./img/client-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 70px;
+    /* width: 700px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    
+
+}
+.health{
+    width: 100px;
+}
+.div-differ h1{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 350px;
+}
+.div-differ{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* padding: 20px; */
+}
+.div-names input{
+    width: 170px;
+    height: 30px;
+}
+.div-names{
+    display: flex;
+    gap: 15px;
+}
+.depa img{
+    width: 20px;
+}
+.div-depart{
+    display: flex;
+    gap: 15px;
+}
+.in input{
+    width: 170px;
+    height: 30px;
+}
+.depa select{
+    width: 170px;
+    height: 30px;
+}
+.message input{
+    width: 355px;
+    height: 100px;
+}
+.last-btn button{
+    width: 150px;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-color:  rgb(27, 142, 230);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.p-message p{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+}
+.but-last{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.direction{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.display-image img{
+    width: 280px;
+}
+.div-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+.h-sign h1{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p-sign p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    width: 250px;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.signs button{
+    width: 180px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+}
+.signing button{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(27, 142, 230);
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+.sign-btn{
+    display: flex;
+    gap: 10px;
+}
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    background-color: rgb(201, 210, 223);
+    padding: 40px 80px;
+    /* width: 250px; */
+    /* margin: 30px; */
+}
+.div-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    gap: 15px;
+    padding-bottom: 50px;
+}
+.div-about h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    /* position: relative; */
+}
+.div-lorem p{
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.footaa{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.circles{
+    background-color: aqua;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 142, 230);
+    border: 1px solid white;
+}
+.fb{
+    width: 15px;
+}
+.google{
+    width: 15px;
+}
+.twitter{
+    width: 12px;
+}
+.vimo{
+    width: 12px;
+}
+.pin{
+    width: 15px;
+}
+.pinn{
+    width: 15px;
+}
+.footers h1{
+    padding-bottom: 20px;
+}
+.div-flex-colu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.div-lorem p{
+   
+    font-size: 12px;
+}
+.div-lorem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-head h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.div-home p{
+    font-size: 12px;
+}
+.img-more{
+    width: 10px;
+}
+.flex-links{
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 5px;
+    color: white;
+}
+.div-open h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.div-lor{
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.div-friday p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.div-mon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.div-hours{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.news h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.lorems{
+    width: 200px;
+}
+.lorems p{
+    font-size: 12px;
+}
+.inputs input{
+    width: 140px;
+    height: 30px;
+    background-color:  rgb(27, 142, 230);
+    border: none;
+    border: 1px solid white;
+}
+.sender{
+    width: 30px;
+    background-color: white;
+}
+.div-sender{
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+.div-submit{
+    display: flex;
+    align-items: center;
+    border: 1px solid  rgb(27, 142, 230);
+    border-radius: 10px;
+}
+.div-news{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.footers h1{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.footers{
+    background-color:  rgb(27, 142, 230);
+    padding: 40px;
+    padding-bottom: 70px;
+    color: white;
+    display: flex;
+    /* align-items: start; */
+    justify-content: center;
+    gap: 30px;
+}
+.copy p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 111, 209);
+    color: white;
+    /* padding-bottom: 30px; */
+    padding: 20px;
+    /* padding-top: 50px; */
+}
